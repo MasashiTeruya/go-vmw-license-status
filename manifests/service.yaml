@@ -20,12 +20,12 @@ spec:
   selector:
     matchLabels:
       app: go-vmw-license-status
-      deletable: yes
+      deletable: 'yes'
   template:
     metadata:
       labels:
         app: go-vmw-license-status
-        deletable: yes
+        deletable: 'yes'
     spec:
       containers:
       - name: go-vmw-license-status

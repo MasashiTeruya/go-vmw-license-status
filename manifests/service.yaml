@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: go-vmw-license-status
-        image: 172.100.100.134/vvv/go-vmw-license-status:TAG
+        image: 172.100.100.134:80/vvv/go-vmw-license-status:TAG
         ports:
         - containerPort: 8081
         readinessProbe:
